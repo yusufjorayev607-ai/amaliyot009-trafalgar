@@ -62,6 +62,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 111px;
 }
 .img{
 	position: fixed;
@@ -92,12 +93,78 @@
   background-color: #ffffff00;
 	font-size: 16px;
 	font-weight: 700;
+	color: var(--blue-main);
 }
 
 .consult-today:hover{
 	background-color: var(--blue-main);
 	color: #fff;
 }
-.hero-image {
-}
 /* END OF HERO */
+
+/* START OF SERVICES */
+.services {
+}
+.services--title {
+	display: flex;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 56px;
+}
+.services-hr{
+	width: 56px;
+	height: 2px;
+	background-color: #222;
+}
+.services--desc {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--dark-gray);
+}
+.element1 {
+}
+.element2 {
+}
+.services--card-grid {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 30px;
+	margin-bottom: 69px;
+	padding-left: 0;
+}
+.services--card {
+	background-color: rgb(255, 255, 255);
+	border-radius: 20px;
+	list-style: none;
+	padding: 54px 45px 46px 37px;
+	filter: drop-shadow(3px 4px 8px #2222225d);
+}
+
+.services-btn {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 56px;
+	border-radius: 55px;
+	border: 2px solid var(--blue-main);
+  background-color: #ffffff00;
+	font-size: 16px;
+	font-weight: 700;
+	color: var(--blue-main);
+}
+.services-btn:hover{
+		background-color: var(--blue-main);
+	color: #fff;
+}
+/* END OF SERVICES */
+
+
