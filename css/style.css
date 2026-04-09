@@ -2,6 +2,7 @@
 :root{
 	--dark-main: #000;
 	--dark-gray:rgba(31, 21, 52, 0.7);
+	--blue-main:rgba(69, 143, 246, 1);
 	--mulish:'Mulish', sans-serif;
 }
 
@@ -9,15 +10,23 @@
 	font-family: var(--mulish);
 }
 .container{
-	max-width: 1450px;
+	max-width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container1{
+	max-width: 1550px;
 	margin-right: auto;
 	margin-left: auto;
 }
 
+/* START OF HEADER */
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 48px;
+	margin-top: 40px;
 }
 .navigation {
 	display: flex;
@@ -46,3 +55,49 @@
 	transform: scale(1.10);
 	color: var(--dark-main);
 }
+/* END OF HEADER */
+
+/* START OF HERO */
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.img{
+	position: fixed;
+	z-index: 2;
+	top: 160px;
+}
+.hero-content {
+	width: 445px;
+	height: 338px;
+	margin-right: 100px;
+}
+.hero-text-title {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+}
+.hero-info {
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 32px;
+	color: var(--dark-gray);
+}
+.consult-today {
+	width: 200px;
+	height: 56px;
+	border-radius: 55px;
+	border: 2px solid var(--blue-main);
+  background-color: #ffffff00;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.consult-today:hover{
+	background-color: var(--blue-main);
+	color: #fff;
+}
+.hero-image {
+}
+/* END OF HERO */
