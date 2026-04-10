@@ -322,11 +322,14 @@
 	width: 56px;
 	height: 2px;
 	background-color: #000;
+	margin-bottom: 69px;
 }
 .articles-cards {
 	display: flex;
 	justify-content: space-between;
 	filter: drop-shadow(3px 4px 8px #2222221c);
+  position: relative;
+	z-index: 2;
 }
 .articles-card {
 	width: 350px;
@@ -372,5 +375,15 @@
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
+}
+.element3{
+	position: absolute;
+	top: 4100px;
+	right: 0;
+  transform: rotate(-180deg);
+}
+.element4{
+	position: absolute;
+	top: 4100px;
 }
 /* END OF ARTICLES */
