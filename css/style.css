@@ -182,6 +182,7 @@
 .healthcare {
 	display: flex;
 	justify-content: space-between; 
+	margin-bottom: 220px;
 }
 .healthcare-image {
 	margin-right: 137px;
@@ -208,3 +209,42 @@
 	margin-bottom: 37px;
 }
 /* END OF HEALTHCARE */
+
+
+/* START OF APPS */
+.apps {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 220px;
+}
+.apps-content {
+	margin-left: 145px;
+	margin-right: 70px;
+}
+.apps-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	margin-bottom: 30px;
+}
+.apps-hr {
+	width: 56px;
+	height: 2px;
+	background-color: #222;
+	margin-left: 0;
+	margin-bottom: 31px;
+}
+.apps-text {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--dark-gray);
+	margin-bottom: 40px;
+}
+.vector {
+	margin-left: 14px;
+	transform: rotate(-90deg);
+}
+.apps-image {
+}
+/* END OF APPS */
