@@ -85,7 +85,7 @@
 	line-height: 32px;
 	color: var(--dark-gray);
 }
-.consult-today {
+.btn {
 	width: 200px;
 	height: 56px;
 	border-radius: 55px;
@@ -96,14 +96,15 @@
 	color: var(--blue-main);
 }
 
-.consult-today:hover{
+.btn:hover{
 	background-color: var(--blue-main);
 	color: #fff;
 }
 /* END OF HERO */
 
 /* START OF SERVICES */
-.services {
+.services{
+	margin-bottom: 220px;
 }
 .services--title {
 	display: flex;
@@ -127,10 +128,19 @@
 	color: var(--dark-gray);
 }
 .element1 {
+		position: absolute;
+	z-index: 1;
+	left: 0;
 }
 .element2 {
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	top: 1251px;
 }
 .services--card-grid {
+	position: relative;
+	z-index: 2;
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
 	gap: 30px;
@@ -168,3 +178,33 @@
 /* END OF SERVICES */
 
 
+/* START OF HEALTHCARE */
+.healthcare {
+	display: flex;
+	justify-content: space-between; 
+}
+.healthcare-image {
+	margin-right: 137px;
+}
+
+.healthcare-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 56px;
+	margin-bottom: 26px;
+}
+.healthcare-hr {
+	width: 56px;
+	height: 2px;
+	background-color: #222;
+	margin-left: 0;
+	margin-bottom: 31px;
+}
+.healthcare-text {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--dark-gray);
+	margin-bottom: 37px;
+}
+/* END OF HEALTHCARE */
