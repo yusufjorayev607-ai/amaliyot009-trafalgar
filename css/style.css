@@ -64,11 +64,6 @@
 	align-items: center;
 	margin-bottom: 111px;
 }
-.img{
-	position: fixed;
-	z-index: 2;
-	top: 160px;
-}
 .hero-content {
 	width: 445px;
 	height: 338px;
@@ -154,7 +149,13 @@
 	padding: 54px 45px 46px 37px;
 	filter: drop-shadow(3px 4px 8px #2222225d);
 }
-
+.services--card:hover {
+	transform: translateY(-10px);
+	transition: 0.3s;
+}
+.services--card:active {
+	transform: scale(1.10);
+}
 .services-btn {
 	display: flex;
 	align-items: center;
@@ -339,6 +340,13 @@
 	background-color: #fff;
 	margin-bottom: 69px;
 }
+.articles-card:hover {
+	transform: translateY(-10px);
+	transition: 0.3s;
+}
+.articles-card:active {
+	transform: scale(1.10);
+}
 .articles-img {
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
@@ -454,3 +462,179 @@ padding: 0;
 	line-height: 60px;
 }
 /* END OF FOOTER */
+
+
+@media (max-width: 500px) {
+	.container {
+		max-width: 380px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+.navigation {
+	display: none;
+}
+.hero {
+	flex-direction: column;
+}
+.hero-content {
+	margin: 0;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.hero-text-title {
+	font-size: 32px;
+	line-height: 40px;
+}
+.hero-info {
+	font-size: 16px;
+	line-height: 24px;
+}
+.consult-today:active{
+ 	transform: scale(1.10);
+	background-color: var(--blue-main);	
+}
+.image {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.services {
+	margin-bottom: 100px;
+}
+.services--title {
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.services--desc {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 28px;
+}
+.element1 {
+	display: none;
+}
+.element2 {
+	display: none;
+}
+.services--card-grid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 95%;
+}
+.healthcare {
+	flex-direction: column-reverse;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.healthcare-image {
+	width: 98%;
+	margin: 0;
+}
+.healthcare-content {
+	width: 90%;
+	height: 400px;
+}
+.healthcare-title {
+	font-size: 32px;
+	line-height: 40px;
+	margin-bottom: 28px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.healthcare-hr {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+.healthcare-text {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 28px;
+}
+.apps {
+	flex-direction: column;
+	text-align: center;
+	margin: 0;
+}
+.apps-content {
+	margin: 0;
+	width: 90%;
+	height: 450px;
+}
+.apps-title {
+	font-size: 32px;
+	line-height: 40px;
+	margin-bottom: 28px;
+}
+.apps-hr {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+.apps-text {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 28px;
+}
+.vector {
+	display: none;
+}
+.apps-image {
+	width: 90%;
+}
+.testimonials {
+	display: none;
+}
+.articles-title {
+	font-size: 32px;
+	line-height: 40px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.element4 {
+	display: none;
+}
+.element3 {
+	display: none;
+}
+.articles-cards {
+	flex-direction: column;
+	padding: 0;
+}
+.articles-card {	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer-text {
+	display: none;
+}
+.footer-title {
+	display: none;
+}
+.footer-col {
+	display: none;
+}
+.footer-list {
+	display: none;
+}
+.bold {
+	display: none;
+}
+}
